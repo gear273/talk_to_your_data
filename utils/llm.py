@@ -2,9 +2,9 @@
 # Author: Marcos Díaz
 # -------------------------------------------
 """ LLM processes for GPT model creation and interaction."""
+# -------------------------------------------
 from collections import defaultdict
 
-# -------------------------------------------
 import streamlit as st
 from langchain.chains import ConversationalRetrievalChain
 from langchain.chat_models import AzureChatOpenAI, ChatOpenAI
